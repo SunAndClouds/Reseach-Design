@@ -1,0 +1,748 @@
+Title,Abstract,Date,Authors,Cluster
+"Political Fact-Checking Efforts are Constrained by Deficiencies in
+  Coverage, Speed, and Reach","Fact-checking has been promoted as a key method for combating political
+misinformation. Comparing the spread of election-related misinformation
+narratives along with their relevant political fact-checks, this study provides
+the most comprehensive assessment to date of the real-world limitations faced
+by political fact-checking efforts. To examine barriers to impact, this study
+extends recent work from laboratory and experimental settings to the wider
+online information ecosystem present during the 2022 U.S. midterm elections.
+From analyses conducted within this context, we find that fact-checks as
+currently developed and distributed are severely inhibited in election contexts
+by constraints on their i. coverage, ii. speed, and, iii. reach. Specifically,
+we provide evidence that fewer than half of all prominent election-related
+misinformation narratives were fact-checked. Within the subset of fact-checked
+claims, we find that the median fact-check was released a full four days after
+the initial appearance of a narrative. Using network analysis to estimate user
+partisanship and dynamics of information spread, we additionally find evidence
+that fact-checks make up less than 1.2\% of narrative conversations and that
+even when shared, fact-checks are nearly always shared within,rather than
+between, partisan communities. Furthermore, we provide empirical evidence which
+runs contrary to the assumption that misinformation moderation is politically
+biased against the political right. In full, through this assessment of the
+real-world influence of political fact-checking efforts, our findings
+underscore how limitations in coverage, speed, and reach necessitate further
+examination of the potential use of fact-checks as the primary method for
+combating the spread of political misinformation.",2024-12-17,"Morgan Wack, Kayla Duskin, Damian Hodel",0
+"BanglishRev: A Large-Scale Bangla-English and Code-mixed Dataset of
+  Product Reviews in E-Commerce","This work presents the BanglishRev Dataset, the largest e-commerce product
+review dataset to date for reviews written in Bengali, English, a mixture of
+both and Banglish, Bengali words written with English alphabets. The dataset
+comprises of 1.74 million written reviews from 3.2 million ratings information
+collected from a total of 128k products being sold in online e-commerce
+platforms targeting the Bengali population. It includes an extensive array of
+related metadata for each of the reviews including the rating given by the
+reviewer, date the review was posted and date of purchase, number of likes,
+dislikes, response from the seller, images associated with the review etc. With
+sentiment analysis being the most prominent usage of review datasets,
+experimentation with a binary sentiment analysis model with the review rating
+serving as an indicator of positive or negative sentiment was conducted to
+evaluate the effectiveness of the large amount of data presented in BanglishRev
+for sentiment analysis tasks. A BanglishBERT model is trained on the data from
+BanglishRev with reviews being considered labeled positive if the rating is
+greater than 3 and negative if the rating is less than or equal to 3. The model
+is evaluated by being testing against a previously published manually annotated
+dataset for e-commerce reviews written in a mixture of Bangla, English and
+Banglish. The experimental model achieved an exceptional accuracy of 94\% and
+F1 score of 0.94, demonstrating the dataset's efficacy for sentiment analysis.
+Some of the intriguing patterns and observations seen within the dataset and
+future research directions where the dataset can be utilized is also discussed
+and explored. The dataset can be accessed through
+https://huggingface.co/datasets/BanglishRev/bangla-english-and-code-mixed-ecommerce-review-dataset.",2024-12-17,"Mohammad Nazmush Shamael, Sabila Nawshin, Swakkhar Shatabda, Salekul Islam",0
+Measurement of Medial Elbow Joint Space using Landmark Detection,"Ultrasound imaging of the medial elbow is crucial for the early
+identification of Ulnar Collateral Ligament (UCL) injuries. Specifically,
+measuring the elbow joint space in ultrasound images is used to assess the
+valgus instability of elbow. To automate this measurement, a precisely
+annotated dataset is necessary; however, no publicly available dataset has been
+proposed thus far. This study introduces a novel ultrasound medial elbow
+dataset for measuring joint space to diagnose Ulnar Collateral Ligament (UCL)
+injuries. The dataset comprises 4,201 medial elbow ultrasound images from 22
+subjects, with landmark annotations on the humerus and ulna. The annotations
+are made precisely by the authors under the supervision of three orthopedic
+surgeons. We evaluated joint space measurement methods using our proposed
+dataset with several landmark detection approaches, including ViTPose, HRNet,
+PCT, YOLOv8, and U-Net. In addition, we propose using Shape Subspace (SS) for
+landmark refinement in heatmap-based landmark detection. The results show that
+the mean Euclidean distance error of joint space is 0.116 mm when using HRNet.
+Furthermore, the SS landmark refinement improves the mean absolute error of
+landmark positions by 0.010 mm with HRNet and by 0.103 mm with ViTPose on
+average. These highlight the potential for high-precision, real-time diagnosis
+of UCL injuries and associated risks, which could be leveraged in large-scale
+screening. Lastly, we demonstrate point-based segmentation of the humerus and
+ulna using the detected landmarks as input. The dataset will be made publicly
+available upon acceptance of this paper at:
+https://github.com/Akahori000/Ultrasound-Medial-Elbow-Dataset.",2024-12-17,"Shizuka Akahori, Shotaro Teruya, Pragyan Shrestha, Yuichi Yoshii, Ryuhei Michinobu, Satoshi Iizuka, Itaru Kitahara",0
+"Question: How do Large Language Models perform on the Question Answering
+  tasks? Answer:","Large Language Models (LLMs) have been showing promising results for various
+NLP-tasks without the explicit need to be trained for these tasks by using
+few-shot or zero-shot prompting techniques. A common NLP-task is
+question-answering (QA). In this study, we propose a comprehensive performance
+comparison between smaller fine-tuned models and out-of-the-box
+instruction-following LLMs on the Stanford Question Answering Dataset 2.0
+(SQuAD2), specifically when using a single-inference prompting technique. Since
+the dataset contains unanswerable questions, previous work used a double
+inference method. We propose a prompting style which aims to elicit the same
+ability without the need for double inference, saving compute time and
+resources. Furthermore, we investigate their generalization capabilities by
+comparing their performance on similar but different QA datasets, without
+fine-tuning neither model, emulating real-world uses where the context and
+questions asked may differ from the original training distribution, for example
+swapping Wikipedia for news articles.
+  Our results show that smaller, fine-tuned models outperform current
+State-Of-The-Art (SOTA) LLMs on the fine-tuned task, but recent SOTA models are
+able to close this gap on the out-of-distribution test and even outperform the
+fine-tuned models on 3 of the 5 tested QA datasets.",2024-12-17,"Kevin Fischer, Darren Fürst, Sebastian Steindl, Jakob Lindner, Ulrich Schäfer",0
+"Shared Attention-based Autoencoder with Hierarchical Fusion-based Graph
+  Convolution Network for sEEG SOZ Identification","Diagnosing seizure onset zone (SOZ) is a challenge in neurosurgery, where
+stereoelectroencephalography (sEEG) serves as a critical technique. In sEEG SOZ
+identification, the existing studies focus solely on the intra-patient
+representation of epileptic information, overlooking the general features of
+epilepsy across patients and feature interdependencies between feature elements
+in each contact site. In order to address the aforementioned challenges, we
+propose the shared attention-based autoencoder (sATAE). sATAE is trained by
+sEEG data across all patients, with attention blocks introduced to enhance the
+representation of interdependencies between feature elements. Considering the
+spatial diversity of sEEG across patients, we introduce graph-based method for
+identification SOZ of each patient. However, the current graph-based methods
+for sEEG SOZ identification rely exclusively on static graphs to model
+epileptic networks. Inspired by the finding of neuroscience that epileptic
+network is intricately characterized by the interplay of sophisticated
+equilibrium between fluctuating and stable states, we design the hierarchical
+fusion-based graph convolution network (HFGCN) to identify the SOZ. HFGCN
+integrates the dynamic and static characteristics of epileptic networks through
+hierarchical weighting across different hierarchies, facilitating a more
+comprehensive learning of epileptic features and enriching node information for
+sEEG SOZ identification. Combining sATAE and HFGCN, we perform comprehensive
+experiments with sATAE-HFGCN on the self-build sEEG dataset, which includes
+sEEG data from 17 patients with temporal lobe epilepsy. The results show that
+our method, sATAE-HFGCN, achieves superior performance for identifying the SOZ
+of each patient, effectively addressing the aforementioned challenges,
+providing an efficient solution for sEEG-based SOZ identification.",2024-12-17,"Huachao Yan, Kailing Guo, Shiwei Song, Yihai Dai, Xiaoqiang Wei, Xiaofen Xing, Xiangmin Xu",0
+Speeding Up the NSGA-II With a Simple Tie-Breaking Rule,"The non-dominated sorting genetic algorithm~II (NSGA-II) is the most popular
+multi-objective optimization heuristic. Recent mathematical runtime analyses
+have detected two shortcomings in discrete search spaces, namely, that the
+NSGA-II has difficulties with more than two objectives and that it is very
+sensitive to the choice of the population size. To overcome these difficulties,
+we analyze a simple tie-breaking rule in the selection of the next population.
+Similar rules have been proposed before, but have found only little acceptance.
+We prove the effectiveness of our tie-breaking rule via mathematical runtime
+analyses on the classic OneMinMax, LeadingOnesTrailingZeros, and
+OneJumpZeroJump benchmarks. We prove that this modified NSGA-II can optimize
+the three benchmarks efficiently also for many objectives, in contrast to the
+exponential lower runtime bound previously shown for OneMinMax with three or
+more objectives. For the bi-objective problems, we show runtime guarantees that
+do not increase when moderately increasing the population size over the minimum
+admissible size. For example, for the OneJumpZeroJump problem with
+representation length $n$ and gap parameter $k$, we show a runtime guarantee of
+$O(\max\{n^{k+1},Nn\})$ function evaluations when the population size is at
+least four times the size of the Pareto front. For population sizes larger than
+the minimal choice $N = \Theta(n)$, this result improves considerably over the
+$\Theta(Nn^k)$ runtime of the classic NSGA-II.",2024-12-16,"Benjamin Doerr, Tudor Ivan, Martin S. Krejca",0
+"Spatio-Temporal Graph Neural Point Process for Traffic Congestion Event
+  Prediction","Traffic congestion event prediction is an important yet challenging task in
+intelligent transportation systems. Many existing works about traffic
+prediction integrate various temporal encoders and graph convolution networks
+(GCNs), called spatio-temporal graph-based neural networks, which focus on
+predicting dense variables such as flow, speed and demand in time snapshots,
+but they can hardly forecast the traffic congestion events that are sparsely
+distributed on the continuous time axis. In recent years, neural point process
+(NPP) has emerged as an appropriate framework for event prediction in
+continuous time scenarios. However, most conventional works about NPP cannot
+model the complex spatio-temporal dependencies and congestion evolution
+patterns. To address these limitations, we propose a spatio-temporal graph
+neural point process framework, named STGNPP for traffic congestion event
+prediction. Specifically, we first design the spatio-temporal graph learning
+module to fully capture the long-range spatio-temporal dependencies from the
+historical traffic state data along with the road network. The extracted
+spatio-temporal hidden representation and congestion event information are then
+fed into a continuous gated recurrent unit to model the congestion evolution
+patterns. In particular, to fully exploit the periodic information, we also
+improve the intensity function calculation of the point process with a periodic
+gated mechanism. Finally, our model simultaneously predicts the occurrence time
+and duration of the next congestion. Extensive experiments on two real-world
+datasets demonstrate that our method achieves superior performance in
+comparison to existing state-of-the-art approaches.",2023-11-15,"Guangyin Jin, Lingbo Liu, Fuxian Li, Jincai Huang",0
+"Polynomial growth in degree-dependent first passage percolation on
+  spatial random graphs","In this paper we study a version of (non-Markovian) first passage percolation
+on graphs, where the transmission time between two connected vertices is
+non-iid, but increases by a penalty factor polynomial in their expected
+degrees. Based on the exponent of the penalty-polynomial, this makes it
+increasingly harder to transmit to and from high-degree vertices. This choice
+is motivated by awareness or time-limitations. For the iid part of the
+transmission times we allow any nonnegative distribution with regularly varying
+behaviour at $0$. For the underlying graph models we choose spatial random
+graphs that have power-law degree distributions, so that the effect of the
+penalisation becomes visible: (finite and infinite) Geometric Inhomogeneous
+Random Graphs, and Scale-Free Percolation. In these spatial models, the
+connection probability between two vertices depends on their spatial distance
+and on their expected degrees. We prove that upon increasing the penalty
+exponent, the transmission time between two far away vertices $x,y$ sweeps
+through four universal phases even for a single underlying graph: explosive
+(tight transmission times), polylogarithmic, polynomial but sublinear
+($|x-y|^{\eta_0+o(1)}$ for an explicit $\eta_0<1$), and linear
+($\Theta(|x-y|)$) in their Euclidean distance. Further, none of these phases
+are restricted to phase boundaries, and those are non-trivial in the main model
+parameters: the tail of the degree-distribution, a long-range parameter, and
+the exponent of regular variation of the iid part of the transmission times. In
+this paper we present proofs of lower bounds for the latter two phases and the
+upper bound for the linear phase. These complement the matching upper bounds
+for the polynomial regime in our companion paper.",2023-09-21,"Júlia Komjáthy, John Lapinskas, Johannes Lengler, Ulysse Schaller",0
+"Exploring acceptance of autonomous vehicle policies using KeyBERT and
+  SNA: Targeting engineering students","This study aims to explore user acceptance of Autonomous Vehicle (AV)
+policies with improved text-mining methods. Recently, South Korean policymakers
+have viewed Autonomous Driving Car (ADC) and Autonomous Driving Robot (ADR) as
+next-generation means of transportation that will reduce the cost of
+transporting passengers and goods. They support the construction of V2I and V2V
+communication infrastructures for ADC and recognize that ADR is equivalent to
+pedestrians to promote its deployment into sidewalks. To fill the gap where
+end-user acceptance of these policies is not well considered, this study
+applied two text-mining methods to the comments of graduate students in the
+fields of Industrial, Mechanical, and Electronics-Electrical-Computer. One is
+the Co-occurrence Network Analysis (CNA) based on TF-IWF and Dice coefficient,
+and the other is the Contextual Semantic Network Analysis (C-SNA) based on both
+KeyBERT, which extracts keywords that contextually represent the comments, and
+double cosine similarity. The reason for comparing these approaches is to
+balance interest not only in the implications for the AV policies but also in
+the need to apply quality text mining to this research domain. Significantly,
+the limitation of frequency-based text mining, which does not reflect textual
+context, and the trade-off of adjusting thresholds in Semantic Network Analysis
+(SNA) were considered. As the results of comparing the two approaches, the
+C-SNA provided the information necessary to understand users' voices using
+fewer nodes and features than the CNA. The users who pre-emptively understood
+the AV policies based on their engineering literacy and the given texts
+revealed potential risks of the AV accident policies. This study adds
+suggestions to manage these risks to support the successful deployment of AVs
+on public roads.",2023-07-18,"Jinwoo Ha, Dongsoo Kim",0
+"Degree Heterogeneity in Higher-Order Networks: Inference in the
+  Hypergraph $\boldsymbolβ$-Model","The $\boldsymbol{\beta}$-model for random graphs is commonly used for
+representing pairwise interactions in a network with degree heterogeneity.
+Going beyond pairwise interactions, Stasi et al. (2014) introduced the
+hypergraph $\boldsymbol{\beta}$-model for capturing degree heterogeneity in
+networks with higher-order (multi-way) interactions. In this paper we initiate
+the rigorous study of the hypergraph $\boldsymbol{\beta}$-model with multiple
+layers, which allows for hyperedges of different sizes across the layers. To
+begin with, we derive the rates of convergence of the maximum likelihood (ML)
+estimate and establish their minimax rate optimality. We also derive the
+limiting distribution of the ML estimate and construct asymptotically valid
+confidence intervals for the model parameters. Next, we consider the
+goodness-of-fit problem in the hypergraph $\boldsymbol{\beta}$-model.
+Specifically, we establish the asymptotic normality of the likelihood ratio
+(LR) test under the null hypothesis, derive its detection threshold, and also
+its limiting power at the threshold. Interestingly, the detection threshold of
+the LR test turns out to be minimax optimal, that is, all tests are
+asymptotically powerless below this threshold. The theoretical results are
+further validated in numerical experiments. In addition to developing the
+theoretical framework for estimation and inference for hypergraph
+$\boldsymbol{\beta}$-models, the above results fill a number of gaps in the
+graph $\boldsymbol{\beta}$-model literature, such as the minimax optimality of
+the ML estimates and the non-null properties of the LR test, which, to the best
+of our knowledge, have not been studied before.",2023-07-06,"Sagnik Nandy, Bhaswar B. Bhattacharya",0
+Community Detection Using Revised Medoid-Shift Based on KNN,"Community detection becomes an important problem with the booming of social
+networks. The Medoid-Shift algorithm preserves the benefits of Mean-Shift and
+can be applied to problems based on distance matrix, such as community
+detection. One drawback of the Medoid-Shift algorithm is that there may be no
+data points within the neighborhood region defined by a distance parameter. To
+deal with the community detection problem better, a new algorithm called
+Revised Medoid-Shift (RMS) in this work is thus proposed. During the process of
+finding the next medoid, the RMS algorithm is based on a neighborhood defined
+by KNN, while the original Medoid-Shift is based on a neighborhood defined by a
+distance parameter. Since the neighborhood defined by KNN is more stable than
+the one defined by the distance parameter in terms of the number of data points
+within the neighborhood, the RMS algorithm may converge more smoothly. In the
+RMS method, each of the data points is shifted towards a medoid within the
+neighborhood defined by KNN. After the iterative process of shifting, each of
+the data point converges into a cluster center, and the data points converging
+into the same center are grouped into the same cluster. The RMS algorithm is
+tested on two kinds of datasets including community datasets with known ground
+truth partition and community datasets without ground truth partition
+respectively. The experiment results show sthat the proposed RMS algorithm
+generally produces betster results than Medoid-Shift and some state-of-the-art
+together with most classic community detection algorithms on different kinds of
+community detection datasets.",2023-04-19,"Jie Hou, Jiakang Li, Xiaokang Peng, Wei Ke, Yonggang Lu",0
+"A Unified Framework for Exploratory Learning-Aided Community Detection
+  Under Topological Uncertainty","In social networks, the discovery of community structures has received
+considerable attention as a fundamental problem in various network analysis
+tasks. However, due to privacy concerns or access restrictions, the network
+structure is often uncertain, thereby rendering established community detection
+approaches ineffective without costly network topology acquisition. To tackle
+this challenge, we present META-CODE, a unified framework for detecting
+overlapping communities via exploratory learning aided by easy-to-collect node
+metadata when networks are topologically unknown (or only partially known).
+Specifically, META-CODE consists of three iterative steps in addition to the
+initial network inference step: 1) node-level community-affiliation embeddings
+based on graph neural networks (GNNs) trained by our new reconstruction loss,
+2) network exploration via community-affiliation-based node queries, and 3)
+network inference using an edge connectivity-based Siamese neural network model
+from the explored network. Through extensive experiments on five real-world
+datasets including two large networks, we demonstrated: (a) the superiority of
+META-CODE over benchmark community detection methods, achieving remarkable
+gains up to 151.27% compared to the best existing competitor, (b) the impact of
+each module in META-CODE, (c) the effectiveness of node queries in META-CODE
+based on empirical evaluations and theoretical findings, (d) the convergence of
+the inferred network, and (e) the computational efficiency of META-CODE.",2023-04-10,"Yu Hou, Cong Tran, Ming Li, Won-Yong Shin",0
+The joint node degree distribution in the Erdős-Rényi network,"The Erd\H{o}s-R\'enyi random graph is the simplest model for node degree
+distribution, and it is one of the most widely studied. In this model, pairs of
+$n$ vertices are selected and connected uniformly at random with probability
+$p$, consequently, the degrees for a given vertex follow the binomial
+distribution. If the number of vertices is large, the binomial can be
+approximated by Normal using the Central Limit Theorem, which is often allowed
+when $\min (np, n(1-p)) > 5$. This is true for every node independently.
+However, due to the fact that the degrees of nodes in a graph are not
+independent, we aim in this paper to test whether the degrees of per node
+collectively in the Erd\H{o}s-R\'enyi graph have a multivariate normal
+distribution MVN. A chi square goodness of fit test for the hypothesis that
+binomial is a distribution for the whole set of nodes is rejected because of
+the dependence between degrees. Before testing MVN we show that the covariance
+and correlation between the degrees of any pair of nodes in the graph are
+$p(1-p)$ and $1/(n-1)$, respectively. We test MVN considering two assumptions:
+independent and dependent degrees, and we obtain our results based on the
+percentages of rejected statistics of chi square, the $p$-values of Anderson
+Darling test, and a CDF comparison. We always achieve a good fit of
+multivariate normal distribution with large values of $n$ and $p$, and very
+poor fit when $n$ or $p$ are very small. The approximation seems valid when $np
+\geq 10$. We also compare the maximum likelihood estimate of $p$ in MVN
+distribution where we assume independence and dependence. The estimators are
+assessed using bias, variance and mean square error.",2023-03-09,"Boshra Alarfaj, Charles Taylor, Leonid Bogachev",0
+Complex Systems of Secrecy: The Offshore Networks of Oligarchs,"Following the invasion of Ukraine, the US, UK, and EU governments--among
+others--sanctioned oligarchs close to Putin. This approach has come under
+scrutiny, as evidence has emerged of the oligarchs' successful evasion of these
+punishments. To address this problem, we analyze the role of an overlooked but
+highly influential group: the secretive professional intermediaries who create
+and administer the oligarchs' offshore financial empires. Drawing on the
+Offshore Leaks Database provided by the International Consortium of
+Investigative Journalists (ICIJ), we examine the ties linking offshore expert
+advisors (lawyers, accountants, and other wealth management professionals) to
+ultra-high-net-worth individuals from four countries: Russia, China, the United
+States, and Hong Kong. We find that resulting nation-level ""oligarch networks""
+share a scale-free structure characterized by heterogeneity of heavy-tailed
+degree distributions of wealth managers; however, network topologies diverge
+across clients from democratic versus autocratic regimes. While generally
+robust, scale-free networks are fragile when targeted by attacks on
+highly-connected nodes. Our ""knock-out"" experiments pinpoint this vulnerability
+to the small group of wealth managers themselves, suggesting that sanctioning
+these professional intermediaries may be more effective and efficient in
+disrupting dark finance flows than sanctions on their wealthy clients. This
+vulnerability is especially pronounced amongst Russian oligarchs, who
+concentrate their offshore business in a handful of boutique wealth management
+firms. The distinctive patterns we identify suggest a new approach to
+sanctions, focused on expert intermediaries to disrupt the finances and
+alliances of their wealthy clients. More generally, our research contributes to
+the larger body of work on complexity science and the structures of secrecy.",2023-03-06,"Ho-Chun Herbert Chang, Brooke Harrington, Feng Fu, Daniel Rockmore",0
+"A Golden Age: Conspiracy Theories' Relationship with Misinformation
+  Outlets, News Media, and the Wider Internet","Do we live in a ""Golden Age of Conspiracy Theories?"" In the last few decades,
+conspiracy theories have proliferated on the Internet with some having
+dangerous real-world consequences. A large contingent of those who participated
+in the January 6th attack on the US Capitol fervently believed in the QAnon
+conspiracy theory. In this work, we study the relationships amongst five
+prominent conspiracy theories (QAnon, COVID, UFO/Aliens, 9/11, and Flat-Earth)
+and each of their respective relationships to the news media, both authentic
+news and misinformation. Identifying and publishing a set of 755 different
+conspiracy theory websites dedicated to our five conspiracy theories, we find
+that each set often hyperlinks to the same external domains, with COVID and
+QAnon conspiracy theory websites having the largest amount of shared
+connections. Examining the role of news media, we further find that not only do
+outlets known for spreading misinformation hyperlink to our set of conspiracy
+theory websites more often than authentic news websites but also that this
+hyperlinking increased dramatically between 2018 and 2021, with the advent of
+QAnon and the start of COVID-19 pandemic. Using partial Granger-causality, we
+uncover several positive correlative relationships between the hyperlinks from
+misinformation websites and the popularity of conspiracy theory websites,
+suggesting the prominent role that misinformation news outlets play in
+popularizing many conspiracy theories.",2023-01-26,"Hans W. A. Hanley, Deepak Kumar, Zakir Durumeric",0
+"Discovering the Traces of Disinformation on Instagram in the Internet
+  Archive","Disinformation, which is fabricated, misleading content spread with the
+intent to deceive others, is accumulating substantial engagements and reaching
+a vast audience on Instagram. However, the temporary nature of the platform and
+the security guidelines that remove malicious content make studying this
+disinformation a challenge. The only way to access removed content and banned
+accounts that are no longer on the live web is by searching the web archives.
+In this study, we set out to quantify the replayability and quality of past
+captures of Instagram account pages, specifically focusing on a group of
+anti-vaxx content creators known as the Disinformation Dozen. We found that the
+number of mementos listed for these users' account pages on the Internet
+Archive's Wayback Machine can be misleading, because a majority of the mementos
+are actually redirections to the Instagram login page, and of the remaining
+replayable mementos, many are missing post images. In fact, 96.13% of mementos
+from the Disinformation Dozen accounts redirect to the login page, and only
+27.16% of the remaining replayable mementos contain every post image. Combined,
+these results reveal that merely 1.05% of mementos for the Disinformation Dozen
+accounts are replayable with complete post images. Furthermore, we found that
+the percentage of replayable mementos is decreasing over time, with a
+particular lack of replayable mementos for the years 2021 and 2022.",2023-01-22,"Haley Bragg, Michele Weigle",0
+"MHVG2MTS: Multilayer Horizontal Visibility Graphs for Multivariate Time
+  Series Analysis","Understanding the properties of time-indexed multivariate data has been a
+predominant topic mainly to address open issues in multivariate time series
+analysis. Usually, the methodologies used to analyze multivariate time series
+are based on adapting approaches for univariate settings or on assumptions and
+parameters for specific problems. A different strategy uses complex network to
+obtain an additional and reduced representation of temporal and causal
+properties of the time series data. Recent strategies involve mapping
+multivariate time series into high-level network structures, specifically into
+multiplex networks representing interconnections between contemporary
+timestamps of different time series components. In this work, we propose a new
+mapping method that takes advantage of the entire structure of multilayer
+networks. We introduce the multilayer horizontal visibility graph that is based
+on the new concept of cross-horizontal visibility between lagged timestamps of
+different components, which allows describing the cross-dimension dependencies
+via inter-layer edges. We use a set of existing topological measures of
+multilayer networks as well as a novel measure to evaluate and validate our
+approach, which is parameter-free, does not require data pre-processing and is
+applicable to any kind of multivariate time series data. We provide an
+extensive experimental evaluation, where we explore the proposed topological
+measures, showing that the inter-layer edges based on cross-horizontal
+visibility preserve more information about the time series data after the
+mappings, information that would inevitably be lost using mapping methods that
+result in single-layer and multiplex structures. We also verify that the
+information mapped by the inter-layer edges is not enough on its own, but that
+it complements the data information captured by the commonly used intra-layer
+edges.",2023-01-05,"Vanessa Freitas Silva, Maria Eduarda Silva, Pedro Ribeiro, Fernando Silva",0
+"Piecewise-Velocity Model for Learning Continuous-time Dynamic Node
+  Representations","Networks have become indispensable and ubiquitous structures in many fields
+to model the interactions among different entities, such as friendship in
+social networks or protein interactions in biological graphs. A major challenge
+is to understand the structure and dynamics of these systems. Although networks
+evolve through time, most existing graph representation learning methods target
+only static networks. Whereas approaches have been developed for the modeling
+of dynamic networks, there is a lack of efficient continuous time dynamic graph
+representation learning methods that can provide accurate network
+characterization and visualization in low dimensions while explicitly
+accounting for prominent network characteristics such as homophily and
+transitivity. In this paper, we propose the Piecewise-Velocity Model (PiVeM)
+for the representation of continuous-time dynamic networks. It learns dynamic
+embeddings in which the temporal evolution of nodes is approximated by
+piecewise linear interpolations based on a latent distance model with piecewise
+constant node-specific velocities. The model allows for analytically tractable
+expressions of the associated Poisson process likelihood with scalable
+inference invariant to the number of events. We further impose a scalable
+Kronecker structured Gaussian Process prior to the dynamics accounting for
+community structure, temporal smoothness, and disentangled (uncorrelated)
+latent embedding dimensions optimally learned to characterize the network
+dynamics. We show that PiVeM can successfully represent network structure and
+dynamics in ultra-low two-dimensional spaces. It outperforms relevant
+state-of-art methods in downstream tasks such as link prediction. In summary,
+PiVeM enables easily interpretable dynamic network visualizations and
+characterizations that can further improve our understanding of the intrinsic
+dynamics of time-evolving networks.",2022-12-23,"Abdulkadir Çelikkanat, Nikolaos Nakis, Morten Mørup",0
+A Non-Asymptotic Analysis of Oversmoothing in Graph Neural Networks,"Oversmoothing is a central challenge of building more powerful Graph Neural
+Networks (GNNs). While previous works have only demonstrated that oversmoothing
+is inevitable when the number of graph convolutions tends to infinity, in this
+paper, we precisely characterize the mechanism behind the phenomenon via a
+non-asymptotic analysis. Specifically, we distinguish between two different
+effects when applying graph convolutions -- an undesirable mixing effect that
+homogenizes node representations in different classes, and a desirable
+denoising effect that homogenizes node representations in the same class. By
+quantifying these two effects on random graphs sampled from the Contextual
+Stochastic Block Model (CSBM), we show that oversmoothing happens once the
+mixing effect starts to dominate the denoising effect, and the number of layers
+required for this transition is $O(\log N/\log (\log N))$ for sufficiently
+dense graphs with $N$ nodes. We also extend our analysis to study the effects
+of Personalized PageRank (PPR), or equivalently, the effects of initial
+residual connections on oversmoothing. Our results suggest that while PPR
+mitigates oversmoothing at deeper layers, PPR-based architectures still achieve
+their best performance at a shallow depth and are outperformed by the graph
+convolution approach on certain graphs. Finally, we support our theoretical
+results with numerical experiments, which further suggest that the
+oversmoothing phenomenon observed in practice can be magnified by the
+difficulty of optimizing deep GNN models.",2022-12-21,"Xinyi Wu, Zhengdao Chen, William Wang, Ali Jadbabaie",0
+An Approach for Detecting Dynamic Communities in Social Networks,"Recent developments in the internet and technology have made major
+advancements in tools that facilitate the collection of social data, opening up
+thus new opportunities for analyzing social networks. Social network analysis
+studies the patterns of social relations and aims at discovering the hidden
+features embedded in the structure of social networks. One of the most
+important features in social networks is community structure : densely knit
+groups of individuals. The dynamic nature of interaction in social networks
+often challenges the detection of such community structures. The contributions
+in this thesis fall into two categories.The first category highlights the
+problem of identifying overlapping communities over time. To carry out such
+analysis, a framework called OLCPM (Online Label propagation and Clique
+Percolation Method) is proposed. It is an online algorithm based on clique
+percolation and label propagation methods. OLCPM has two main features : the
+first one is its ability to discover overlapping communities, while the second
+is its effectiveness in handling fine-grained temporal net works. As for as the
+second category is concerned, it emphasizes on the problem of analyzing
+communities that are embedded at different temporal scales. For example, in
+networks of interaction such as e-mails or phone calls, individuals are
+involved in daily as well as occasional conversations. We propose a first
+method for analyzing communities at multiple temporal scales. Hence, the
+dynamic network (link streams) is studied at different temporal granularities,
+and coherent communities (called stable communities) over a period of time are
+detected at each temporal granularity. The two proposed approaches are
+validated on both synthetic and real-world datasets.",2022-12-05,Souaad Boudebza,0
+"Leveraging Users' Social Network Embeddings for Fake News Detection on
+  Twitter","Social networks (SNs) are increasingly important sources of news for many
+people. The online connections made by users allows information to spread more
+easily than traditional news media (e.g., newspaper, television). However, they
+also make the spread of fake news easier than in traditional media, especially
+through the users' social network connections. In this paper, we focus on
+investigating if the SNs' users connection structure can aid fake news
+detection on Twitter. In particular, we propose to embed users based on their
+follower or friendship networks on the Twitter platform, so as to identify the
+groups that users form. Indeed, by applying unsupervised graph embedding
+methods on the graphs from the Twitter users' social network connections, we
+observe that users engaged with fake news are more tightly clustered together
+than users only engaged in factual news. Thus, we hypothesise that the embedded
+user's network can help detect fake news effectively. Through extensive
+experiments using a publicly available Twitter dataset, our results show that
+applying graph embedding methods on SNs, using the user connections as network
+information, can indeed classify fake news more effectively than most
+language-based approaches. Specifically, we observe a significant improvement
+over using only the textual information (i.e., TF.IDF or a BERT language
+model), as well as over models that deploy both advanced textual features
+(i.e., stance detection) and complex network features (e.g., users network,
+publishers cross citations). We conclude that the Twitter users' friendship and
+followers network information can significantly outperform language-based
+approaches, as well as the existing state-of-the-art fake news detection models
+that use a more sophisticated network structure, in classifying fake news on
+Twitter.",2022-11-19,"Ting Su, Craig Macdonald, Iadh Ounis",0
+"Spreading processes with population heterogeneity over multi-layer
+  networks","It's been controversial whether re-opening school will facilitate viral
+spread among household communities with mitigation strategies such as
+mask-wearing in place. In this work, we propose an epidemiological model that
+explores the viral transmission over the multi-layer contact network composed
+of the school layer and community layer with population heterogeneity on
+mask-wearing behavior. We derive analytical expressions for three key
+epidemiological quantities: the probability of emergence, the epidemic
+threshold, and the expected epidemic size. In particular, we show how the
+aforementioned quantities depend on the structure of the multi-layer contact
+network, viral transmission dynamics, and the distribution of the different
+types of masks within the population. Through extensive simulations, our
+analytical results show near-perfect agreement with the simulation results with
+a limited number of nodes. Utilizing the model, we study the impact of the
+opening/closure of the school layer on the viral transmission dynamics with
+various mask-wearing scenarios. Interestingly, we found that it's safe to open
+the school layer with the proper proportion of good-quality masks in the
+population. Moreover, we validate the theory of the trade-off between
+source-control and self-protection over a single layer by Tian et al on our
+multi-layer setting. We conclude that even on a multi-layer network, it's of
+great significance to treat the spreading process as two distinct phases in
+mind when considering mitigation strategies. Besides, we would like to remark
+that our model of spreading process over multi-layer networks with population
+heterogeneity can also be applied to various other domains, such as
+misinformation control.",2022-11-14,"Yurun Tian, Osman Yagan",0
+"Coupled dynamics of endemic disease transmission and gradual awareness
+  diffusion in multiplex networks","Understanding the interplay between human behavioral phenomena and infectious
+disease dynamics has been one of the central challenges of mathematical
+epidemiology. However, socio-cognitive processes critical for the initiation of
+desired behavioral responses during an outbreak have often been neglected or
+oversimplified in earlier models. Combining the microscopic Markov chain
+approach with the law of total probability, we herein institute a mathematical
+model describing the dynamic interplay between stage-based progression of
+awareness diffusion and endemic disease transmission in multiplex networks. We
+analytically derived the epidemic thresholds for both discrete-time and
+continuous-time versions of our model, and we numerically demonstrated the
+accuracy of our analytic arguments in capturing the time course and the
+steady-state of the coupled disease-awareness dynamics. We found that our model
+is exact for arbitrary unclustered multiplex networks, outperforming a widely
+adopted probability-tree-based method, both in the prediction of the
+time-evolution of a contagion and in the final epidemic size. Our findings show
+that informing the unaware individuals about the circulating disease will not
+be sufficient for the prevention of an outbreak unless the distributed
+information triggers strong awareness of infection risks with adequate
+protective measures, and that the immunity of highly-aware individuals can
+elevate the epidemic threshold, but only if the rate of transition from weak to
+strong awareness is sufficiently high. Our study thus reveals that awareness
+diffusion and other behavioral parameters can nontrivially interact when
+producing their effects on epidemiological dynamics of an infectious disease,
+suggesting that future public health measures should not ignore this complex
+behavioral interplay and its influence on contagion transmission in
+multilayered networked systems.",2022-10-21,"Qingchu Wu, Tarik Hadzibeganovic, Xiao-Pu Han",0
+Analyzing Social Media Activities at Bellingcat,"Open-source journalism emerged as a new phenomenon in the media ecosystem,
+which uses crowdsourcing to fact-check and generate investigative reports for
+world events using open sources (e.g., social media). A particularly prominent
+example is Bellingcat. Bellingcat is known for its investigations on the
+illegal use of chemical weapons during the Syrian war, the Russian
+responsibility for downing flight MH17, the identification of the perpetrators
+in the attempted murder of Alexei Navalny, and war crimes in the Russo-Ukraine
+war. Crucial for this is social media in order to disseminate findings and
+crowdsource fact-checks. In this work, we characterize the social media
+activities at Bellingcat on Twitter. For this, we built a comprehensive dataset
+of all N=24,682 tweets posted by Bellingcat on Twitter since its inception in
+July 2014. Our analysis is three-fold: (1) We analyze how Bellingcat uses
+Twitter to disseminate information and collect information from its follower
+base. Here, we find a steady increase in both posts and replies over time,
+particularly during the Russo-Ukrainian war, which is in line with the growing
+importance of Bellingcat for the traditional media ecosystem. (2) We identify
+characteristics of posts that are successful in eliciting user engagement. User
+engagement is particularly large for posts embedding additional media items and
+with a more negative sentiment. (3) We examine how the follower base has
+responded to the Russian invasion of Ukraine. Here, we find that the sentiment
+has become more polarized and negative. We attribute this to a ~13-fold
+increase in bots interacting with the Bellingcat account. Overall, our findings
+provide recommendations for how open-source journalism such as Bellingcat can
+successfully operate on social media.",2022-09-21,"Dominik Bär, Fausto Calderon, Michael Lawlor, Sophia Licklederer, Manuel Totzauer, Stefan Feuerriegel",0
+"An Exploratory Study of Tweets about the SARS-CoV-2 Omicron Variant:
+  Insights from Sentiment Analysis, Language Interpretation, Source Tracking,
+  Type Classification, and Embedded URL Detection","This paper presents the findings of an exploratory study on the continuously
+generating Big Data on Twitter related to the sharing of information, news,
+views, opinions, ideas, feedback, and experiences about the COVID-19 pandemic,
+with a specific focus on the Omicron variant, which is the globally dominant
+variant of SARS-CoV-2 at this time. A total of 12028 tweets about the Omicron
+variant were studied, and the specific characteristics of tweets that were
+analyzed include - sentiment, language, source, type, and embedded URLs. The
+findings of this study are manifold. First, from sentiment analysis, it was
+observed that 50.5% of tweets had a neutral emotion. The other emotions - bad,
+good, terrible, and great were found in 15.6%, 14.0%, 12.5%, and 7.5% of the
+tweets, respectively. Second, the findings of language interpretation showed
+that 65.9% of the tweets were posted in English. It was followed by Spanish,
+French, Italian, and other languages. Third, the findings from source tracking
+showed that Twitter for Android was associated with 35.2% of tweets. It was
+followed by Twitter Web App, Twitter for iPhone, Twitter for iPad, and other
+sources. Fourth, studying the type of tweets revealed that retweets accounted
+for 60.8% of the tweets, it was followed by original tweets and replies that
+accounted for 19.8% and 19.4% of the tweets, respectively. Fifth, in terms of
+embedded URL analysis, the most common domain embedded in the tweets was found
+to be twitter.com, which was followed by biorxiv.org, nature.com, and other
+domains. Finally, to support similar research in this field, we have developed
+a Twitter dataset that comprises more than 500,000 tweets about the SARS-CoV-2
+omicron variant since the first detected case of this variant on November 24,
+2021.",2022-07-20,"Nirmalya Thakur, Chia Y. Han",0
+"Assessing the Effects of Hyperparameters on Knowledge Graph Embedding
+  Quality","Embedding knowledge graphs into low-dimensional spaces is a popular method
+for applying approaches, such as link prediction or node classification, to
+these databases. This embedding process is very costly in terms of both
+computational time and space. Part of the reason for this is the optimisation
+of hyperparameters, which involves repeatedly sampling, by random, guided, or
+brute-force selection, from a large hyperparameter space and testing the
+resulting embeddings for their quality. However, not all hyperparameters in
+this search space will be equally important. In fact, with prior knowledge of
+the relative importance of the hyperparameters, some could be eliminated from
+the search altogether without significantly impacting the overall quality of
+the outputted embeddings. To this end, we ran a Sobol sensitivity analysis to
+evaluate the effects of tuning different hyperparameters on the variance of
+embedding quality. This was achieved by performing thousands of embedding
+trials, each time measuring the quality of embeddings produced by different
+hyperparameter configurations. We regressed the embedding quality on those
+hyperparameter configurations, using this model to generate Sobol sensitivity
+indices for each of the hyperparameters. By evaluating the correlation between
+Sobol indices, we find substantial variability in the hyperparameter
+sensitivities between knowledge graphs, with differing dataset characteristics
+being the probable cause of these inconsistencies. As an additional
+contribution of this work we identify several relations in the UMLS knowledge
+graph that may cause data leakage via inverse relations, and derive and present
+UMLS-43, a leakage-robust variant of that graph.",2022-07-01,"Oliver Lloyd, Yi Liu, Tom Gaunt",0
+"The Impact Of Social Media In The Fight Against The Spread Of
+  Coronavirus (Covid-19) Pandemic In Anambra State, Nigeria","This study examined the impact of social media in the fight against the
+spread of coronavirus (COVID-19) pandemic in Anambra state, Nigeria. The key
+objectives are to: find out if the numbers of social media users increased in
+Anambra state since the wake of coronavirus pandemic; find out if the social
+media is being utilised in the fight against the spread of coronavirus pandemic
+in Anambra state; find out how the social media is being utilised in the fight
+against the spread of coronavirus pandemic in Anambra state; and discover the
+impact of social media in the fight against the spread of coronavirus pandemic
+in Anambra State. It was anchored on Agenda Setting Theory, and the
+Technological Determinism Theory (TDT). The study was designed as a survey with
+close-ended questionnaire distributed to 400 respondents. The findings of this
+study revealed that usage and accessibility of social media increased in
+Anambra state because of coronavirus pandemic. It also revealed that the social
+media is being utilised by individuals, NGOs and government in the fight
+against the spread of coronavirus in Anambra state. The study also found that
+the social media is being utilised to gather and disseminate information,
+study, transact businesses, among other things. The finding also showed that
+the social media has positive impact in the fight against the spread of
+coronavirus in Anambra state. The study concluded that social media has much
+benefits than negative impact, and should be used to contain the spread of
+coronavirus. It, among other things, recommended training and empowerment of
+the citizens on effective utilisation of social media to create impact in the
+society.",2022-06-11,"Onuegbu Okechukwu Christopher, Joseph Oluchukwu Wogu, Jude Agbo",0
+"An Approach to Investigate Public Opinion, Views, and Perspectives
+  Towards Exoskeleton Technology","Over the last decade, exoskeletons have had an extensive impact on different
+disciplines and application domains such as assisted living, military,
+healthcare, firefighting, and industries, on account of their diverse and
+dynamic functionalities to augment human abilities, stamina, potential, and
+performance in a multitude of ways. In view of this wide-scale applicability
+and use-cases of exoskeletons, it is crucial to investigate and analyze the
+public opinion, views, and perspectives towards exoskeletons which would help
+to interpret the effectiveness of the underlining human-robot, human-machine,
+and human-technology interactions. The Internet of Everything era of today's
+living, characterized by people spending more time on the internet than ever
+before, holds the potential for the investigation of the same by mining and
+analyzing relevant web behavior, specifically from social media, that can be
+interpreted to understand public opinion, views, and perspectives towards a
+topic or set of topics. Therefore, this paper aims to address this research
+challenge related to exoskeletons by utilizing the potential of web
+behavior-based Big Data mining in the modern-day Internet of Everything era. As
+Twitter is one of the most popular social media platforms on a global scale -
+characterized by both the number of users and the amount of time spent by its
+users on the platform - this work focused on investigating web behavior on
+Twitter to interpret the public opinion, views, and perspectives towards
+exoskeleton technology. A total of approximately 20,000 tweets related to
+exoskeletons were used to evaluate the effectiveness of the proposed approach.
+The results presented and discussed uphold the efficacy of the proposed
+approach to interpret and analyze the public opinion, views, and perspectives
+towards exoskeletons from the associated tweets.",2022-04-27,"Nirmalya Thakur, Cat Luong, Chia Y. Han",0
+"Characterizing Reddit Participation of Users Who Engage in the QAnon
+  Conspiracy Theories","Widespread conspiracy theories may significantly impact our society. This
+paper focuses on the QAnon conspiracy theory, a consequential conspiracy theory
+that started on and disseminated successfully through social media. Our work
+characterizes how Reddit users who have participated in QAnon-focused
+subreddits engage in activities on the platform, especially outside their own
+communities. Using a large-scale Reddit moderation action against QAnon-related
+activities in 2018 as the source, we identified 13,000 users active in the
+early QAnon communities. We collected the 2.1 million submissions and 10.8
+million comments posted by these users across all of Reddit from October 2016
+to January 2021. The majority of these users were only active after the
+emergence of the QAnon Conspiracy theory and decreased in activity after
+Reddit's 2018 QAnon ban. A qualitative analysis of a sample of 915 subreddits
+where the ""QAnon-enthusiastic"" users were especially active shows that they
+participated in a diverse range of subreddits, often of unrelated topics to
+QAnon. However, most of the users' submissions were concentrated in subreddits
+that have sympathetic attitudes towards the conspiracy theory, characterized by
+discussions that were pro-Trump, or emphasized unconstricted behavior (often
+anti-establishment and anti-interventionist). Further study of a sample of
+1,571 of these submissions indicates that most consist of links from
+low-quality sources, bringing potential harm to the broader Reddit community.
+These results point to the likelihood that the activities of early QAnon users
+on Reddit were dedicated and committed to the conspiracy, providing
+implications on both platform moderation design and future research.",2022-03-14,"Kristen Engel, Yiqing Hua, Taixiang Zeng, Mor Naaman",0
+"ONBRA: Rigorous Estimation of the Temporal Betweenness Centrality in
+  Temporal Networks","In network analysis, the betweenness centrality of a node informally captures
+the fraction of shortest paths visiting that node. The computation of the
+betweenness centrality measure is a fundamental task in the analysis of modern
+networks, enabling the identification of the most central nodes in such
+networks. Additionally to being massive, modern networks also contain
+information about the time at which their events occur. Such networks are often
+called temporal networks. The temporal information makes the study of the
+betweenness centrality in temporal networks (i.e., temporal betweenness
+centrality) much more challenging than in static networks (i.e., networks
+without temporal information). Moreover, the exact computation of the temporal
+betweenness centrality is often impractical on even moderately-sized networks,
+given its extremely high computational cost. A natural approach to reduce such
+computational cost is to obtain high-quality estimates of the exact values of
+the temporal betweenness centrality. In this work we present ONBRA, the first
+sampling-based approximation algorithm for estimating the temporal betweenness
+centrality values of the nodes in a temporal network, providing rigorous
+probabilistic guarantees on the quality of its output. ONBRA is able to compute
+the estimates of the temporal betweenness centrality values under two different
+optimality criteria for the shortest paths of the temporal network. In
+addition, ONBRA outputs high-quality estimates with sharp theoretical
+guarantees leveraging on the \emph{empirical Bernstein bound}, an advanced
+concentration inequality. Finally, our experimental evaluation shows that ONBRA
+significantly reduces the computational resources required by the exact
+computation of the temporal betweenness centrality on several real world
+networks, while reporting high-quality estimates with rigorous guarantees.",2022-03-01,"Diego Santoro, Ilie Sarpe",0
+"SimGRACE: A Simple Framework for Graph Contrastive Learning without Data
+  Augmentation","Graph contrastive learning (GCL) has emerged as a dominant technique for
+graph representation learning which maximizes the mutual information between
+paired graph augmentations that share the same semantics. Unfortunately, it is
+difficult to preserve semantics well during augmentations in view of the
+diverse nature of graph data. Currently, data augmentations in GCL that are
+designed to preserve semantics broadly fall into three unsatisfactory ways.
+First, the augmentations can be manually picked per dataset by
+trial-and-errors. Second, the augmentations can be selected via cumbersome
+search. Third, the augmentations can be obtained by introducing expensive
+domain-specific knowledge as guidance. All of these limit the efficiency and
+more general applicability of existing GCL methods. To circumvent these crucial
+issues, we propose a \underline{Sim}ple framework for \underline{GRA}ph
+\underline{C}ontrastive l\underline{E}arning, \textbf{SimGRACE} for brevity,
+which does not require data augmentations. Specifically, we take original graph
+as input and GNN model with its perturbed version as two encoders to obtain two
+correlated views for contrast. SimGRACE is inspired by the observation that
+graph data can preserve their semantics well during encoder perturbations while
+not requiring manual trial-and-errors, cumbersome search or expensive domain
+knowledge for augmentations selection. Also, we explain why SimGRACE can
+succeed. Furthermore, we devise adversarial training scheme, dubbed
+\textbf{AT-SimGRACE}, to enhance the robustness of graph contrastive learning
+and theoretically explain the reasons. Albeit simple, we show that SimGRACE can
+yield competitive or better performance compared with state-of-the-art methods
+in terms of generalizability, transferability and robustness, while enjoying
+unprecedented degree of flexibility and efficiency.",2022-02-07,"Jun Xia, Lirong Wu, Jintao Chen, Bozhen Hu, Stan Z. Li",0
